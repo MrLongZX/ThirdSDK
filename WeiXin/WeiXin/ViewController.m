@@ -67,7 +67,7 @@
 // 根据codeh获取access_token
 - (void)getAccessTokeActionWith:(NSString *)code
 {
-    NSString *urlStr = [NSString stringWithFormat:@"https://api.weixin.qq.com/sns/oauth2/access_token?appid=%@&secret=%@&code=%@&grant_type=authorization_code",@"wx49fc99c349383712",@"893dbbab16d6601326468ace4e531078",code];
+    NSString *urlStr = [NSString stringWithFormat:@"https://api.weixin.qq.com/sns/oauth2/access_token?appid=%@&secret=%@&code=%@&grant_type=authorization_code",@"AppKey",@"Secret",code];
     
     __weak __typeof(self)weakSelf = self;
     [self getSessionRequestWithURL:urlStr withReslut:^(NSDictionary *dic) {

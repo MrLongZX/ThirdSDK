@@ -25,7 +25,7 @@
 			<string>weixinHS</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>wx49fc99c349383712</string>
+				<string>AppKey</string>
 			</array>
 		</dict>
 	</array>
